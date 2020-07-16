@@ -1,0 +1,24 @@
+{
+  "name": "mern-stack-google-oauth",
+  "version": "1.0.0",
+  "description": "MERN Stack App with Google OAuth and Passport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/mern-stack-google-oauth.git"
+  },
+  "keywords": [],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/mern-stack-google-oauth/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/mern-stack-google-oauth#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
